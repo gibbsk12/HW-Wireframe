@@ -15,12 +15,16 @@ header, nav, section, aside, footer{
     padding: 10px;
 }
 
+header, nav, footer{
+    height:20px;
+    padding: 30px;
+}
+
 article{
     color: #ebebeb;
     background: #777;
-    overflow: auto;
-    padding: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
+    padding: 10px;
 }
 
 h1, p{
@@ -30,21 +34,24 @@ h1, p{
 }
 
 aside{
+    width:385px;
+    height: 230px;
+    margin-top: 20px;
+    padding: 20px; 
     float: right;
-    width:365px;
-    height: 240px;
-    padding: 20px;
 }
 
 section{
-    float: left;
     width: 495px;
-    height: 240px;
-    padding: 20px;
+    height: 230px;
+    margin-top: 20px;
+    padding-top: 30px;
+    float: left;
 }
 
 footer{
-    clear: left;
+    width: 900px;
+    margin-top: 20px; 
     float: left;
-    width: 940px;
+    clear: left;
 }
